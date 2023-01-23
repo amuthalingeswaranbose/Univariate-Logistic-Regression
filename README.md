@@ -30,7 +30,7 @@ Univariate Logistic Regression Class Implementation using Numpy Python Library (
 
 ## How-to
 
- 1. Import required libraries.
+ 1. Install required libraries.
  2. clone this repo.
  3. open univariate-class-test.ipynb jupyter notebook and start run the code.
  4. after completing the notebook, try your own input and check how it works.
