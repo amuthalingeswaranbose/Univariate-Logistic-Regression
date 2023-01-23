@@ -9,13 +9,13 @@ Univariate Logistic Regression Class Implementation using Numpy Python Library (
 
 ## Formulas,
 
-  1. Finding of y , y = (m * x) + c (m - slope, c - intercept, x - input, y - predicted output) linear equation.
-  2. Calcualte sigmoid of y, a = 1 / (1 + exp(-y))
-  3. Calculate loss,  loss = -(y*log(a) + (1-y)*log(1-a))
-  4. Find derivative of m, dm = ((a - y)* x)
-  5. Find derivative of b, db = (a - y)
-  6. Update the m (slope), m = m - (α * learning_rate)
-  7. Update the b (intercept), b = b - (α * learning_rate)
+  1. Finding of y, ### y = (m * x) + c (m - slope, c - intercept, x - input, y - predicted output) linear equation.
+  2. Calcualte sigmoid of y, ### a = 1 / (1 + exp(-y))
+  3. Calculate loss, ### loss = -(y*log(a) + (1-y)*log(1-a))
+  4. Find derivative of m, ### dm = ((a - y)* x)
+  5. Find derivative of b, ### db = (a - y)
+  6. Update the m (slope), ### m = m - (learning_rate * dm)
+  7. Update the b (intercept), ### b = b - (learning_rate * db)
 
 ## Required Libraries
   1. Numpy .
