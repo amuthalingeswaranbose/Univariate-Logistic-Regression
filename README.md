@@ -25,7 +25,7 @@ Univariate Logistic Regression Class Implementation using Numpy Python Library (
   
 ## Files
 
-  1. Univariate_Logistic_Regression.py - contains Univariate_Logistic_Regression Class and methods implementaion.
+  1. Univariate_Logistic_Regression.py - contains Univariate_Logistic_Regression Class and methods (fit, pred, pred_prob).
   2. univariate-class-test.ipynb - contains the examples of random value generate, fit training data and find pred and pred_prob of given testing samples.
 
 ## How-to
